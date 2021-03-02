@@ -14,7 +14,7 @@ const MemberList = ({ isProcessLoading, membersData, startLoadingMembers, delete
     useEffect(() => {
         debugger
         startLoadingMembers();
-    }, []);
+    });
 
     const columns = [
         {

@@ -37,7 +37,7 @@ const MemberView = props => {
         if (!addMemeber) {
             props.startLoadingMember(props.match.params.id, form)
         }
-    }, []);
+    });
 
     return (
         <div data-testid="MemberViewComponent">
