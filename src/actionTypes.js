@@ -1,4 +1,4 @@
-export default {
+const actionTypes = {
     USER_LOGIN: 'login',
     USER_LOGOUT: 'logout',
     LOAD_USER_PROGRESS: 'loadProgressUser',
@@ -12,3 +12,5 @@ export default {
     LOAD_MEMBER_FAILURE: 'loadFailureMember',
     LOAD_MEMBER_SUCCESS: 'loadSuccessMember'
 }
+
+export default actionTypes;
